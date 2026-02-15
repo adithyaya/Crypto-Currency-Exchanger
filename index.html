@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devise-width, initial-scale=1.0" />
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <script src="script.js" type="text/javascript" defer></script>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>New Responsive Hero Section</title>
+</head>
+
+<body>
+
+    <header class="header-section">
+        <!-- <svg width="710" height="310" viewBox="0 0 710 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_2)">
+            <circle cx="163.5" cy="163.5" r="119.5" fill="#6F3FF0"/>
+            <circle cx="163.5" cy="163.5" r="70.5" fill="white"/>
+            <circle cx="163.5" cy="163.5" r="66.5" fill="#6F3FF0"/>
+            <circle cx="163" cy="163" r="24" fill="white"/>
+            <path d="M281.923 88.2054L281.011 239.757L150.219 163.191L281.923 88.2054Z" fill="white"/>
+            <path d="M267.5 201L303.44 156H231.56L267.5 201Z" fill="#FF0000"/>
+            <path d="M247.5 137L263.521 156.5H231.479L247.5 137Z" fill="#F02F4F"/>
+            <path d="M287.5 137L303.521 156.5H271.479L287.5 137Z" fill="#F02F4F"/>
+            <rect x="248" y="137" width="39" height="19" fill="#F02F4F"/>
+            <path d="M395.23 227.38C385.823 227.38 377.097 225.907 369.05 222.96C361.117 219.9 354.203 215.593 348.31 210.04C342.53 204.487 337.997 197.97 334.71 190.49C331.423 182.897 329.78 174.567 329.78 165.5C329.78 156.433 331.423 148.16 334.71 140.68C337.997 133.087 342.53 126.513 348.31 120.96C354.203 115.407 361.117 111.157 369.05 108.21C377.097 105.15 385.823 103.62 395.23 103.62C406.223 103.62 416.027 105.547 424.64 109.4C433.367 113.253 440.62 118.807 446.4 126.06L424.98 145.44C421.127 140.907 416.877 137.45 412.23 135.07C407.697 132.69 402.597 131.5 396.93 131.5C392.057 131.5 387.58 132.293 383.5 133.88C379.42 135.467 375.907 137.79 372.96 140.85C370.127 143.797 367.86 147.367 366.16 151.56C364.573 155.753 363.78 160.4 363.78 165.5C363.78 170.6 364.573 175.247 366.16 179.44C367.86 183.633 370.127 187.26 372.96 190.32C375.907 193.267 379.42 195.533 383.5 197.12C387.58 198.707 392.057 199.5 396.93 199.5C402.597 199.5 407.697 198.31 412.23 195.93C416.877 193.55 421.127 190.093 424.98 185.56L446.4 204.94C440.62 212.08 433.367 217.633 424.64 221.6C416.027 225.453 406.223 227.38 395.23 227.38ZM518.248 227.38C508.841 227.38 500.114 225.907 492.068 222.96C484.134 219.9 477.221 215.593 471.328 210.04C465.548 204.487 461.014 197.97 457.728 190.49C454.441 182.897 452.798 174.567 452.798 165.5C452.798 156.433 454.441 148.16 457.728 140.68C461.014 133.087 465.548 126.513 471.328 120.96C477.221 115.407 484.134 111.157 492.068 108.21C500.114 105.15 508.841 103.62 518.248 103.62C529.241 103.62 539.044 105.547 547.658 109.4C556.384 113.253 563.638 118.807 569.418 126.06L547.998 145.44C544.144 140.907 539.894 137.45 535.248 135.07C530.714 132.69 525.614 131.5 519.948 131.5C515.074 131.5 510.598 132.293 506.518 133.88C502.438 135.467 498.924 137.79 495.978 140.85C493.144 143.797 490.878 147.367 489.178 151.56C487.591 155.753 486.798 160.4 486.798 165.5C486.798 170.6 487.591 175.247 489.178 179.44C490.878 183.633 493.144 187.26 495.978 190.32C498.924 193.267 502.438 195.533 506.518 197.12C510.598 198.707 515.074 199.5 519.948 199.5C525.614 199.5 530.714 198.31 535.248 195.93C539.894 193.55 544.144 190.093 547.998 185.56L569.418 204.94C563.638 212.08 556.384 217.633 547.658 221.6C539.044 225.453 529.241 227.38 518.248 227.38ZM615.365 152.07H670.615V177.23H615.365V152.07ZM617.745 198.99H679.965V225H584.425V106H677.755V132.01H617.745V198.99Z" fill="black"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_1_2">
+            <rect width="710" height="310" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg> -->
+        <a class="nav-logo" href="#">
+            <img src="img/Frame 1-Photoroom.png" class="main-logo" alt="CCE logo">
+        </a>
+        <nav class="main-nav">
+            <a href="#" class="nav-bar">converter</a>
+            <a href="#" class="nav-bar">send money</a>
+            <a href="#" class="nav-bar">price</a>
+            <a href="#" class="nav-bar">business</a>
+            <a href="#" class="nav-bar">company</a>
+        </nav>
+    </header>
+
+    <section class="main-section grid grid--3--cols container grid--center">
+
+        <h1 class="primary-heading">Crypto Currency Exchanger</h1>
+        <form class="cta-form min-grid grid--2--cols grid--center">
+            <div>
+                <label class="curr-label" for="currency">From:</label><br>
+                <input type="number" id="currency" placeholder="Currency Type" />
+                <select id="select-curr">
+                        <option value="USD">USD</option>
+                        <option value="IND">IND</option>
+                        <option value="EUR">EUR</option>
+                        <option value="YEN">YEN</option>
+                    </select>
+                <p class="equivalent">1BTC = 300666.70 USD</p>
+            </div>
+
+            <div>
+                <label class="bit-label" for="btc">To:</label><br>
+                <input type="number" id="btc" placeholder="Maximum Amount" />
+                <select id="select-type">
+                        <option value="BTC">BTC</option>
+                        <option value="ITC">ITC</option>
+                        <option value="CTC">CTC</option>
+                        <option value="JTC">JTC</option>
+                    </select>
+                <p class="equivalent">We use mindmarket rates &#9432;</p>
+            </div>
+        </form>
+        <div class="hero-img-box">
+            <img src="img/original-7ba00c633a36e6ff0f7288f590983d7f.png" alt="Crypto currency exchanging machine and executives" class="main-image" width="450" height="471" />
+        </div>
+
+        <div class="hero-btn">
+            <a class="btn btn-str" href="#">Exchange</a>
+        </div>
+    </section>
+
+    <body>
+
+</html>
